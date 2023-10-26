@@ -14,7 +14,7 @@ h1 {
 
 table {
   width: 360px;
-  height: 500px;
+  height: 600px;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -42,16 +42,12 @@ th {
   color: #fff;
 }
 
-.break {
-  background-color: #f77d00;
-  color: #fff;
-}
-
 button {
   background-color: #3290dd;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 14px 30px;
+  margin: 2px 2px 10px 2px;
   cursor: pointer;
   font-size: 16px;
   border-radius: 5px;
