@@ -17,9 +17,4 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "Arial-Regular";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/63ef0d4311ab2525e10bd15a/fonts/arial-regular.ttf")
-    format("truetype");
-}
 @import url("https://fonts.googleapis.com/css?family=Urbanist:700");
