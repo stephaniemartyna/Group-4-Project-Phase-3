@@ -2,17 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Schedule Page</title>
+    <title>Timetable</title>
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/timetable-page.css" />
   </head>
   <body>
+    <!--Top bar-->
+    <div class="status-bar">
+      <img
+        class="battery"
+        src="https://c.animaapp.com/rtV6zeFE/img/battery.svg"
+      />
+      <img class="wifi" src="https://c.animaapp.com/rtV6zeFE/img/wifi-1.svg" />
+      <img
+        class="cellular-connection"
+        src="https://c.animaapp.com/rtV6zeFE/img/cellular-connection.svg"
+      />
+      <div class="time"><div class="text-wrapper">10:04</div></div>
+    </div>
     <header>
-      <h1>Schedule Page</h1>
+      <h1>
+        <img
+          class="iconly-light-outline"
+          src="https://c.animaapp.com/MUMUotfk/img/iconly-light-outline-arrow---left.svg"
+          onclick=""
+        />Timetable
+      </h1>
     </header>
     <div class="schedule">
-      <div class="header">
-        <h1>Weekly School Schedule</h1>
-      </div>
       <table>
         <tr>
           <th>Time</th>
@@ -30,42 +49,42 @@
         <tr>
           <td>8 AM</td>
           <td class="class">Math</td>
-          <td class="class">Science</td>
+          <td class="class">OOP</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">English</td>
+          <td class="empty"></td>
+          <td class="class">SAD</td>
         </tr>
         <tr>
           <td>9 AM</td>
-          <td class="class">History</td>
-          <td class="class">Math</td>
           <td class="empty"></td>
-          <td class="class">Science</td>
-          <td class="class">English</td>
+          <td class="class">OOP</td>
+          <td class="empty"></td>
+          <td class="class">Math</td>
+          <td class="class">SAD</td>
         </tr>
         <tr>
           <td>10 AM</td>
-          <td class="class">Science</td>
-          <td class="class">English</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="class">Comm</td>
+          <td class="empty"></td>
+          <td class="class">OOP</td>
+          <td class="class">Proj</td>
         </tr>
         <tr>
           <td>11 AM</td>
           <td class="class">Science</td>
-          <td class="class">English</td>
+          <td class="class">Comm</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="class">OOP</td>
+          <td class="class">Proj</td>
         </tr>
         <tr>
           <td>12 PM</td>
           <td class="class">Science</td>
-          <td class="class">English</td>
+          <td class="class">Comm</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="class">OOP</td>
+          <td class="empty"></td>
         </tr>
         <tr>
           <td>1 PM</td>
@@ -77,48 +96,73 @@
         </tr>
         <tr>
           <td>2 PM</td>
-          <td class="class">Science</td>
-          <td class="class">English</td>
+          <td class="class">Comm</td>
+          <td class="class">Lab</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="class">Web</td>
+          <td class="empty"></td>
         </tr>
         <tr>
           <td>3 PM</td>
-          <td class="class">Science</td>
-          <td class="class">English</td>
+          <td class="class">Comm</td>
+          <td class="class">Lab</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="class">Web</td>
+          <td class="class">DB</td>
         </tr>
         <tr>
           <td>4 PM</td>
-          <td class="class">Science</td>
-          <td class="class">English</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="class">Lab</td>
+          <td class="empty"></td>
+          <td class="class">Web</td>
+          <td class="class">DB</td>
         </tr>
         <tr>
           <td>5 PM</td>
-          <td class="class">Science</td>
-          <td class="class">English</td>
           <td class="empty"></td>
-          <td class="class">History</td>
-          <td class="class">PE</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="class">DB</td>
         </tr>
       </table>
       <button>Add Course</button>
     </div>
     <footer>
-      <nav>
-        <ul>
-          <p>nav menu</p>
-          <li>Calendar View</li>
-          <li>Day View</li>
-          <li>Schedule View</li>
-        </ul>
-      </nav>
+      <!--Bottom bar-->
+      <div class="bottom-bar">
+        <div class="home-indicator"><div class="div"></div></div>
+        <div class="tab-bar">
+          <div class="icon-text">
+            <a href="index.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/badgecalendar-2.svg"
+                onclick=""
+            /></a>
+            <div class="text">Calender</div>
+          </div>
+          <div class="icon-text">
+            <a href="timetable.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/graduationcap-2.svg"
+                onclick=""
+            /></a>
+            <div class="text">Schedule</div>
+          </div>
+          <div class="icon-text">
+            <a href="tasks.html"
+              ><img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/bell-1.svg"
+                onclick=""
+            /></a>
+            <div class="text">Tasks</div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
