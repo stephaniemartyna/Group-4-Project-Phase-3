@@ -1,0 +1,21 @@
+body{
+    margin: 10px;
+}
+
+.image-container {
+    margin: 10px; 
+    padding: 10px; 
+  }
+  
+.task-icon {
+    width: 1em; 
+    height: 1em; 
+  }
+
+.image-link{
+    text-align: center;
+}
+
+.image-link img{
+    display: block;
+}
