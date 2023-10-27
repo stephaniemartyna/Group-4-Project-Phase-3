@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <title>MAD Phase 3 UI Mock Up</title>
-    <!-- title is shown in browser tab -->
+    <!-- title is shown in the browser tab -->
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/styleguide.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/taskview.css" />
     <script src="scripts/script1.js"></script>
   </head>
   <body>
+    <!--Top bar-->
     <div class="status-bar">
       <img
         class="battery"
@@ -16,57 +18,67 @@
       />
       <img class="wifi" src="https://c.animaapp.com/rtV6zeFE/img/wifi-1.svg" />
       <img
-        class="cellular-connection"
+        class= "cellular-connection"
         src="https://c.animaapp.com/rtV6zeFE/img/cellular-connection.svg"
       />
-      <div class="time"><div class="text-wrapper">10:04</div></div>
-    </div>
-    <div>
-      <p>Main Page</p>
-      <div>
-        <a href="schedule-event.html">Schedule Event Page</a>
-      </div>
-      <div>
-        <a href="calendar.html">Calendar Page</a>
-      </div>
-      <div>
-        <a href="timetable.html">Timetable Page</a>
-      </div>
-      <div>
-        <a href="nav-bar.html">Nav Bar</a>
+      <div class="time">
+        <div class="text-wrapper">10:04</div>
       </div>
     </div>
-    <div class="bottom-bar">
-      <div class="home-indicator"><div class="div"></div></div>
-      <div class="tab-bar">
-        <div class="icon-text">
-          <a href="calendar.html">
-            <img
-              class="img"
-              src="https://c.animaapp.com/zZ3C8NAs/img/badgecalendar-2.svg"
-              onclick=""
-          /></a>
-          <div class="text">Calender</div>
+    <header>
+      <h2><img class="task-icon" src="images/task-icon.png" alt="Icon" /> Thursday</h2>
+    </header>
+    <body>
+      <div class="image-container">
+        <a href="timetable.html" class="image-link">
+          <img class="task-desc" src="images/task-desc.png" alt="img" onclick="">
+        </a>
+      </div>
+      <div class="image-container">
+        <a href="index.html" class="image-link">
+          <img class="view-tiemtable" src="images/task-calendar.png" alt="img" onclick="">
+        </a>
+      </div>
+    </body>
+    <footer>
+      <!--Bottom bar-->
+      <div class="bottom-bar">
+        <div class="home-indicator">
+          <div class="div"></div>
         </div>
-        <div class="icon-text">
-          <a href="timetable.html">
-            <img
-              class="img"
-              src="https://c.animaapp.com/zZ3C8NAs/img/graduationcap-2.svg"
-              onclick=""
-          /></a>
-          <div class="text">Schedule</div>
-        </div>
-        <div class="icon-text">
-          <a href=""
-            ><img
-              class="img"
-              src="https://c.animaapp.com/zZ3C8NAs/img/bell-1.svg"
-              onclick=""
-          /></a>
-          <div class="text">Tasks</div>
+        <div class="tab-bar">
+          <div class="icon-text">
+            <a href="index.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/badgecalendar-2.svg"
+                onclick=""
+              />
+            </a>
+            <div class="text">Calendar</div>
+          </div>
+          <div class="icon-text">
+            <a href="timetable.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/graduationcap-2.svg"
+                onclick=""
+              />
+            </a>
+            <div class="text">Schedule</div>
+          </div>
+          <div class="icon-text">
+            <a href="tasks.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/bell-1.svg"
+                onclick=""
+              />
+            </a>
+            <div class="text">Tasks</div>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
