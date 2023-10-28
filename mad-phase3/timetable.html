@@ -23,13 +23,15 @@
       <div class="time"><div class="text-wrapper">10:04</div></div>
     </div>
     <header>
-      <h1>
-        <img
-          class="iconly-light-outline"
-          src="https://c.animaapp.com/MUMUotfk/img/iconly-light-outline-arrow---left.svg"
-          onclick=""
-        />Timetable
-      </h1>
+      <a href="tasks.html" class="back-button">
+        <div class="auto-layout">
+          <img
+            class="iconly-light-outline"
+            src="https://c.animaapp.com/MUMUotfk/img/iconly-light-outline-arrow---left.svg" onclick=""
+          />
+          <div class="text-wrapper">Timetable</div>
+        </div>
+      </a>
     </header>
     <div class="schedule">
       <table>
@@ -127,7 +129,7 @@
           <td class="class">DB</td>
         </tr>
       </table>
-      <button>Add Course</button>
+      <button onclick="window.location.href='schedule-event.html'">Add Course</button>
     </div>
     <footer>
       <!--Bottom bar-->
