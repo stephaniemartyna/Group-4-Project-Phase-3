@@ -10,7 +10,6 @@
     <script src="scripts/script1.js"></script>
   </head>
   <body>
-
     <!--Top bar-->
     <div class="status-bar">
       <img
@@ -26,8 +25,6 @@
         <div class="text-wrapper">10:04</div>
       </div>
     </div>
-
-    <!--Tasks-->
     <header>
       <img class="view-tiemtable" src="images/tasks-title.png" alt="https://www.figma.com/community/plugin/791103617505812222">
     </header>
@@ -49,24 +46,44 @@
       </div>
     </body>
     <footer>
-
-    <!--Bottom bar-->
-    <div class="bottom-bar">
-      <div class="home-indicator"><div class="div"></div></div>
-      <div class="tab-bar">
-        <div class="icon-text">
-          <img class="img" src="https://c.animaapp.com/zZ3C8NAs/img/badgecalendar-2.svg"/>
-          <div class="text"><a href="index.html">Calendar</a></div>
+      <!--Bottom bar-->
+      <div class="bottom-bar">
+        <div class="home-indicator">
+          <div class="div"></div>
         </div>
-        <div class="icon-text">
-          <img class="img" src="https://c.animaapp.com/zZ3C8NAs/img/graduationcap-2.svg"/>
-          <div class="text"><a href ="timetable.html">Schedule</a></div>
-        </div>
-        <div class="icon-text">
-          <img class="img" src="https://c.animaapp.com/zZ3C8NAs/img/bell-1.svg"/>
-          <div class="text"><a href="tasks.html">Tasks</a></div>
+        <div class="tab-bar">
+          <div class="icon-text">
+            <a href="index.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/badgecalendar-2.svg"
+                onclick=""
+              />
+            </a>
+            <div class="text">Calendar</div>
+          </div>
+          <div class="icon-text">
+            <a href="timetable.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/graduationcap-2.svg"
+                onclick=""
+              />
+            </a>
+            <div class="text">Schedule</div>
+          </div>
+          <div class="icon-text" onclick="goBack">
+            <a href="tasks.html">
+              <img
+                class="img"
+                src="https://c.animaapp.com/zZ3C8NAs/img/bell-1.svg"
+                onclick=""
+              />
+            </a>
+            <div class="text">Tasks</div>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

@@ -28,22 +28,22 @@ td {
 }
 
 th {
-  background-color: rgba(189, 189, 189, 1);
-  color: #333;
+  background-color: #333;
+  color: #fff;
 }
 
 .class {
-  background-color: #2ea7ff;
-  color:#fff;
+  background-color: #68a0cf;
+  color: #fff;
 }
 
 .empty {
-  background-color: #fff;
-  color: rgba(130, 130, 130, 1);
+  background-color: #333;
+  color: #fff;
 }
 
 button {
-  background-color: #2ea7ff;
+  background-color: #3290dd;
   color: #fff;
   border: none;
   padding: 14px 30px;
