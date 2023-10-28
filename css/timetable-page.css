@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.schedule {
+  margin: 20px auto;
+  max-width: 90%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+.class {
+  background-color: #68a0cf;
+  color: #fff;
+}
+
+.empty {
+  background-color: #333;
+  color: #fff;
+}
+
+.break {
+  background-color: #f77d00;
+  color: #fff;
+}
+/* Add button styling */
+button {
+  background-color: #007bff; /* Change the background color to match your page's theme */
+  color: #fff; /* Text color */
+  border: none; /* Remove the button border */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 20px;
+  }
+
+  table {
+    width: 90%; /* Adjust the width as needed */
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    height: 60px;
+  }
+}

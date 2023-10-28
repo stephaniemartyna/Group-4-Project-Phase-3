@@ -1,0 +1,30 @@
+:root {
+    --lightlabelprimary: rgba(0, 0, 0, 1);
+    --lightbackgroundtertiary: rgba(248, 248, 248, 1);
+    --lightgraphicsgray: rgba(142, 142, 147, 1);
+    --lightbackgroundquaternary: rgba(247, 247, 247, 1);
+    --lightlabelquaternary: rgba(60, 60, 67, 0.13);
+    --textdark-grey: rgba(130, 130, 130, 1);
+    --black-400: rgba(189, 189, 189, 1);
+    --textblack: rgba(51, 51, 51, 1);
+    --textred: rgba(239, 74, 60, 1);
+    --textlight-grey: rgba(189, 189, 189, 1);
+    --subhead-regular-font-family: "Inter-Regular", Helvetica;
+    --subhead-regular-font-weight: 400;
+    --subhead-regular-font-size: 14px;
+    --subhead-regular-letter-spacing: 0.25px;
+    --subhead-regular-line-height: 18px;
+    --subhead-regular-font-style: normal;
+    --headline-regular-font-family: "Inter-Regular", Helvetica;
+    --headline-regular-font-weight: 400;
+    --headline-regular-font-size: 16px;
+    --headline-regular-letter-spacing: 0.15000000596046448px;
+    --headline-regular-line-height: 20px;
+    --headline-regular-font-style: normal;
+    --caption-1-regular-font-family: "Inter-Regular", Helvetica;
+    --caption-1-regular-font-weight: 400;
+    --caption-1-regular-font-size: 13px;
+    --caption-1-regular-letter-spacing: 0.20000000298023224px;
+    --caption-1-regular-line-height: 16px;
+    --caption-1-regular-font-style: normal;
+}
